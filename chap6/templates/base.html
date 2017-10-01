@@ -1,0 +1,22 @@
+{{ define "base" }}<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> {{ template "title" . }} </title>
+    </head>
+    {{ block "styles" . }}<style>
+        h1 {
+            color: #400080
+        }
+        body {
+            text-align: center
+        }
+    </style>{{ end }}
+
+    <body>
+        <h1> {{ template "title" . }} </h1>
+        <p> {{ template "content" . }} </p>
+
+        {{ block "scripts" . }} {{ end }}
+    </body>
+</html>{{ end }}
