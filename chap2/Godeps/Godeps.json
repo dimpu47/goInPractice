@@ -1,0 +1,55 @@
+{
+	"ImportPath": "github.com/dimpu47/goInPractice/chap2",
+	"GoVersion": "go1.9",
+	"GodepVersion": "v80",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/braintree/manners",
+			"Comment": "0.4.0-15-g82a8879",
+			"Rev": "82a8879fc5fd0381fa8b2d8033b19bf255252088"
+		},
+		{
+			"ImportPath": "github.com/jessevdk/go-flags",
+			"Comment": "v1.4.0-3-g1c38ed7",
+			"Rev": "1c38ed7ad0cc3d9e66649ac398c30e45f395c4eb"
+		},
+		{
+			"ImportPath": "gopkg.in/gcfg.v1",
+			"Comment": "v1.2.2",
+			"Rev": "f02745ab41b9d54a9d495f3356e76f7396da404c"
+		},
+		{
+			"ImportPath": "gopkg.in/gcfg.v1/scanner",
+			"Comment": "v1.2.2",
+			"Rev": "f02745ab41b9d54a9d495f3356e76f7396da404c"
+		},
+		{
+			"ImportPath": "gopkg.in/gcfg.v1/token",
+			"Comment": "v1.2.2",
+			"Rev": "f02745ab41b9d54a9d495f3356e76f7396da404c"
+		},
+		{
+			"ImportPath": "gopkg.in/gcfg.v1/types",
+			"Comment": "v1.2.2",
+			"Rev": "f02745ab41b9d54a9d495f3356e76f7396da404c"
+		},
+		{
+			"ImportPath": "gopkg.in/urfave/cli.v1",
+			"Comment": "v1.20.0",
+			"Rev": "cfb38830724cc34fedffe9a2a29fb54fa9169cd1"
+		},
+		{
+			"ImportPath": "gopkg.in/warnings.v0",
+			"Comment": "v0.1.2",
+			"Rev": "ec4a0fea49c7b46c2aeb0b51aac55779c607e52b"
+		},
+		{
+			"ImportPath": "launchpad.net/gnuflag",
+			"Comment": "14",
+			"Rev": "roger.peppe@canonical.com-20150127164241-i95i710z8ju182mx"
+		}
+	]
+}
